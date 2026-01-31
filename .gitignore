@@ -1,0 +1,7 @@
+.tech_env/
+*.json
+__pycache__
+dataset/
+.env
+cache/
+*.npy

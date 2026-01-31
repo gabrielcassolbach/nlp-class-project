@@ -1,0 +1,37 @@
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, sans-serif;
+  background-color: #ffffff00;
+  overflow: hidden; 
+}
+
+.app-root {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  height: 100%;
+  width: 100%;
+}
+
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  height: 90%;
+  width: 100%;
+  max-width: 800px;
+  background: rgba(255, 255, 255, 0);
+  border-radius: 24px; 
+  overflow: hidden; 
+  z-index: 900;
+}
+
+.background-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;      
+}
